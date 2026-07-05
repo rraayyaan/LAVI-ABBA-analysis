@@ -6,7 +6,11 @@ Karvat, G., Crespo-García, M., Vishne, G., Anderson, M. C., & Landau, A. N. (20
 This pipeline computes the rhythmicity profiles of LFP epoch data using LAVI and statistically detects rhythmically sustained and rhythmically transient bands using ABBA.
 The pipeline also includes statistical analyses that identify significant differences in rhythmicity and spectral band distributions between states and regions.
 
-Run the scripts in the following order:
+% THE PIPELINE USES THE FOLLOWING ORDER:
+
+% First complete the preprocessing and epoch creation using: LAVI-ABBA_data_preprocessing.ipynb
+
+% THEN:
 
 1. Filter 50 Hz noise from epoch dataset: apply_50hz_filter
 2. Compute LAVI profile and pink noise simulations: calculate_filtered_lavi_and_pink
