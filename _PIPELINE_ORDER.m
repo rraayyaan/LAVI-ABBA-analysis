@@ -1,4 +1,8 @@
-% Run the scripts in the following order:
+% THE PIPELINE USES THE FOLLOWING ORDER:
+
+% FIRST COMPLETE THE PREPROCESSING AND EPOCH CREATION USING: LAVI-ABBA_data_preprocessing.ipynb
+
+% THEN:
 
 % 1. Filter 50 Hz noise from epoch dataset: apply_50hz_filter
 % 2. Compute LAVI profile and pink noise simulations: calculate_filtered_lavi_and_pink
