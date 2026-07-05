@@ -28,6 +28,6 @@ Run the scripts in the following order:
 10. Plot grand-averaged presence of all band-types (single subplot with all band-types): band_distributions
 
 EXTRA: visualise non-averaged/averaged bands across epochs and averaged bands across channels
-Review ABBA plots across epochs (non-averaged) - LAVI profile and ABBA bands: plot_ABBA_across_epochs
-Review ABBA bands across channels (averaged across epochs): plot_ABBA_bands_across_channels
-Review ABBA bands across epochs (non-averaged): plot_ABBA_bands_across_epochs
+- Review ABBA plots across epochs (non-averaged) - LAVI profile and ABBA bands: plot_ABBA_across_epochs
+- Review ABBA bands across channels (averaged across epochs): plot_ABBA_bands_across_channels
+- Review ABBA bands across epochs (non-averaged): plot_ABBA_bands_across_epochs
