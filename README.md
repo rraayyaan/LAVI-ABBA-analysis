@@ -1,6 +1,8 @@
 # LAVI-ABBA-analysis
 Pipeline for LAVI-ABBA analysis of rhythmicity and spectral organisation of electrophysiological data, based on the approach devised by Karvat et al. (2024).
 
+Karvat, G., Crespo-García, M., Vishne, G., Anderson, M. C., & Landau, A. N. (2024). Universal rhythmic architecture uncovers distinct modes of neural dynamics. https://doi.org/10.1101/2024.12.05.627113
+
 This pipeline computes the rhythmicity profiles of LFP epoch data using LAVI and statistically detects rhythmically sustained and rhythmically transient bands using ABBA.
 The pipeline also includes statistical analyses that identify significant differences in rhythmicity and spectral band distributions between states and regions.
 
